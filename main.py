@@ -1,5 +1,8 @@
 import datetime
 
+# TODO: No se retiene ningun monto si es que el ingreso bruto anual no supera las 7 UIT
+# Un trabajdor al año recibe 12 sueldos mas dos gratificaciones es decir 14 sueldos.
+# El monto de la UIT para 2020 es 4300 soles
 
 def tasa(rneto, uit):
     if rneto <= 5 * uit:
